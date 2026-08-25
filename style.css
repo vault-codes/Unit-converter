@@ -16,6 +16,7 @@ body{
     margin-bottom: 0px;
     display: block;
     margin: 0 auto;
+    height: 250px;
 }
 
 h1{
@@ -25,7 +26,8 @@ h1{
 }
 
 #unit{
-    max-width: 70px;
+    max-width: 130px;
+    font-size: 10px;
     padding: 5px;
     color: white;
     background-color: #6943FF;
@@ -35,9 +37,17 @@ h1{
     margin: 0 auto;
     font-size: 2.5em;
     font-weight: bold;
+
     
     
 }
+
+#unit::placeholder{
+    font-size: 10px;
+    color: #CCC1FF;
+}
+
+
 
 #convertBtn{
     color:#6943FF;
@@ -47,7 +57,9 @@ h1{
     display: block;
     margin: 20px auto;
     border: none;
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 20px;
+    
 }
 
 #convertBtn:hover{
